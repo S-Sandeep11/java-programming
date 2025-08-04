@@ -1,0 +1,14 @@
+class bitshifter
+{
+    public static void main(String[] args)
+    {
+        int i = 0*80000000;
+        int answer1,answer2;
+        answer1 = i >> 3;
+        answer2 = i >>> 3;
+        
+        System.out.println("initially: "+ i);
+        System.out.println(">> 3:"+ answer1);
+        System.out.println(">>> 3: " + answer2);
+    }
+}
