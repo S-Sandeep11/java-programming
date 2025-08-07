@@ -56,7 +56,7 @@ class Main {
             }
         }
         if (!replaced) {
-            System.out.println("eat not found.");
+            System.out.println("seat not found.");
         }
 
             
