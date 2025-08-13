@@ -152,3 +152,49 @@ class Main {
         System.out.println(arr[1]);
     }
 }
+
+
+class Main {
+    public static void main(String[] args) {
+ String a = "New World";
+ String y = "Hello World";
+ String x ="Hello|World|java";
+ 
+ System.out.println("Hello".matches(x));
+ System.out.println("World".matches(x));
+ System.out.println("javascript".matches(x));
+ System.out.println("y".regionMatches(7,a,4,5));
+    }
+}
+
+
+
+
+
+class Main {
+    public static void main(String[] args) {
+ String x = "Hello";
+ String y ="Hello sandeep Hello";
+ System.out.println(x.replace('l','p'));
+ String a = "(?i)Hello";
+ 
+ System.out.println(y.replaceAll(a,"hi"));
+ String b = "Hello";
+ System.out.println(y.replaceFirst(b,"hi"));
+    }
+}
+
+
+
+
+
+class Main {
+    public static void main(String[] args) {
+ String x = "Hello World";
+ String y ="[,\\.\\s]";
+ String [] z = x.split(y) ;
+    for(String S : z) {
+ System.out.println(S);
+    }
+  }
+}
