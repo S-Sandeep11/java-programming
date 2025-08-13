@@ -121,3 +121,18 @@ public class Main {
         sc.close();
     }
 }
+
+
+
+
+
+public class Main {
+    public static void main(String[] args) {
+        String data = "hello";
+        System.out.println(data.contentEquals("hello"));
+        System.out.println(data.contentEquals("e"));
+        System.out.println(data.contains("hell"));
+        System.out.println(data.contentEquals("h"));
+        System.out.println(data.contentEquals("hel"));
+    }
+}
