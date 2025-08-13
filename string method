@@ -66,3 +66,17 @@ class Main {
         System.out.println(y[0]);
     }
 }
+
+
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String x = "     sandeep     ";
+        System.out.println(x.trim());
+        System.out.println(String.valueOf(x));
+         System.out.println(String.valueOf(true));
+    }
+}
+        
