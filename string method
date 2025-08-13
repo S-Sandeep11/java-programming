@@ -27,3 +27,18 @@ class Main {
  System.out.println(y.replaceFirst(b,"hi"));
     }
 }
+
+
+
+
+
+class Main {
+    public static void main(String[] args) {
+ String x = "Hello World";
+ String y ="[,\\.\\s]";
+ String [] z = x.split(y) ;
+    for(String S : z) {
+ System.out.println(S);
+    }
+  }
+}
