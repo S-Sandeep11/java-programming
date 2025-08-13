@@ -54,3 +54,15 @@ class Main {
  System.out.println(x.startsWith("He"));
     }
 }
+
+
+
+
+
+class Main {
+    public static void main(String[] args) {
+        String x = "Sandeep";
+        char[] y =x.toCharArray();
+        System.out.println(y[0]);
+    }
+}
