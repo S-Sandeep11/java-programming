@@ -154,20 +154,4 @@ class Main {
 }
 
 
-class Main {
-    public static void main(String[] args) {
- String a = "New World";
- String y = "Hello World";
- String x ="Hello|World|java";
- 
- System.out.println("Hello".matches(x));
- System.out.println("World".matches(x));
- System.out.println("javascript".matches(x));
- System.out.println("y".regionMatches(7,a,4,5));
-    }
-}
-
-
-
-
 
